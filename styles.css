@@ -493,7 +493,7 @@ body {
         cursor: pointer;
       }
       .modal-content img {
-        width: 300px;
+        width: 70%;
         height: auto;
         border-radius: 8px;
         margin-bottom: 20px;
