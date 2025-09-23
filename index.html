@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>José Manuel Moreno Tapia - Especialista en Ciberseguridad</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <img
+            src="./images/foto_perfil.jpg"
+            alt="foto Jose Moreno"
+            class="profile-photo"
+          />
+          <div class="header-text">
+            <h1 class="name">José Manuel Moreno Tapia</h1>
+            <p class="title">Especialista en Ciberseguridad</p>
+            <p class="title">Programación</p>
+            <p class="title">Automatización con IA</p>
+            <p class="description">
+              Apasionado de la informática con más de 10 años de experiencia en
+              gestión de procesos y control de calidad en la industria
+              farmacéutica, reinventándome desde hace tres años con un claro
+              objetivo: trabajar en el sector tecnológico. Para ello, me
+              actualizo diariamente de forma autodidacta en Ciberseguridad,
+              programación y automatización con IA.
+            </p>
+          </div>
+        </div>
+      </header>
+      <section class="contacto">
+        <h2 class="section-title">
+          <i class="fa-solid fa-address-book"></i>
+          Información personal y contacto
+        </h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-user contact-icon"></i>
+            <span class="contact-text">46 años</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone contact-icon"></i>
+            <span class="contact-text">685 89 16 97</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope contact-icon"></i>
+            <a href="mailto:infomoreno79@gmail.com" class="contact-link"
+              >infomoreno79@gmail.com</a
+            >
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt contact-icon"></i>
+            <span class="contact-text">Terrassa, Barcelona</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-car contact-icon"></i>
+            <span class="contact-text">Carnet de conducir B</span>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github contact-icon"></i>
+            <a
+              href="https://github.com/JMT79"
+              target="_blank"
+              class="contact-link"
+              >Github</a
+            >
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin contact-icon"></i>
+            <a
+              href="https://www.linkedin.com/in/josemorenotapia/"
+              target="_blank"
+              class="contact-link"
+              >Linkedin</a
+            >
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-globe contact-icon"></i>
+            <a
+              href="https://vercel.com/jmt79projects"
+              target="_blank"
+              class="contact-link"
+              >Portfolio</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="main-content">
+        <aside class="sidebar">
+          <section>
+            <h2 class="section-title">
+              <i class="fas fa-cogs"></i>
+              Habilidades Técnicas
+            </h2>
+            <div class="filter-buttons">
+              <button class="filter-btn active" data-filter="all">Todas</button>
+              <button class="filter-btn" data-filter="ciberseguridad"
+                >Ciberseguridad</button
+              >
+              <button class="filter-btn" data-filter="programacion"
+                >Programación</button
+              >
+              <button class="filter-btn" data-filter="Ia">IA</button>
+              <button class="filter-btn" data-filter="sistemas"
+                >Sistemas y Virtualización</button
+              >
+            </div>
+            <div class="skills-container" id="skillsContainer"></div>
+          </section>
+          <section class="languages">
+            <h2 class="section-title">
+              <i class="fas fa-language"></i>
+              Idiomas
+            </h2>
+            <div class="language-item">
+              <span>Castellano</span>
+              <span class="language-level">Nativo</span>
+            </div>
+            <div class="language-item">
+              <span>Catalán</span>
+              <span class="language-level">Nativo</span>
+            </div>
+            <div class="language-item">
+              <span>Inglés</span>
+              <span class="language-level">Comprensión lectora y escrita</span>
+            </div>
+          </section>
+
+          <section class="aptitudes">
+            <h2 class="section-title">
+              <i class="fas fa-star"></i>
+              Aptitudes
+            </h2>
+            <div class="aptitudes-list">
+              <div class="aptitude-item">Trabajo en equipo</div>
+              <div class="aptitude-item">Responsabilidad y perseverancia</div>
+              <div class="aptitude-item"
+                >Capacidad de aprendizaje y adaptación</div
+              >
+              <div class="aptitude-item">Resolución de problemas</div>
+              <div class="aptitude-item">Atención al detalle</div>
+            </div>
+          </section>
+        </aside>
+
+        <main class="main-section">
+          <section>
+            <h2 class="section-title">
+              <i class="fas fa-graduation-cap"></i>
+              Formación
+            </h2>
+            <div id="formationContainer"></div>
+          </section>
+
+          <section style="margin-top: 40px">
+            <h2 class="section-title">
+              <i class="fas fa-briefcase"></i>
+              Experiencia Profesional
+            </h2>
+            <div class="experience-item">
+              <span class="item-year">2009-2022</span>
+              <h3 class="item-title"
+                >KERN PHARMA | LABORATORIOS VIRENS | GRUPO FERRER</h3
+              >
+              <p class="item-institution">Operario de producción y envasado</p>
+              <p class="item-description">
+                Operario de producción y envasado de productos farmacéuticos
+                bajo estricta normativa GMP. Me encargué de la producción, el
+                mantenimiento y calibración de maquinaria y equipos para cambios
+                de formato. Utilicé sistemas como SAP y SISLOG para gestionar la
+                información y el inventario de manera eficiente. Mi
+                meticulosidad en la producción y la documentación de procesos
+                mejoró la eficiencia operativa y aseguró la calidad del producto
+                final.
+              </p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <div id="modal-window" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img id="modal-image" src="" alt="" />
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+    <div id="profile-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="closeProfileModal">&times;</span>
+        <img id="modal-profile-img" src="" alt="Foto de Perfil" />
+        <h3 id="modal-profile-title"></h3>
+        <p id="modal-profile-description"></p>
+      </div>
+    </div>
+
+    <script>
+      // JSON escalable para habilidades técnicas con niveles de dominio
+      const skillsData = {
+        Ia: {
+          title: "Inteligencia Artificial",
+          skills: [
+            { name: "AUTOMATIZACIÓN CON PYTHON", level: 3 },
+            { name: "WORKFLOWS N8N", level: 3 },
+            { name: "INTEGRACIÓN DE APIS", level: 3 },
+            { name: "CHATBOTS LLMS", level: 3 },
+            { name: "LLAMAINDEX", level: 3 },
+            { name: "AGENTES IA", level: 3 },
+            { name: "CUADERNOS JUPYTER Y MARKDOWN", level: 3 },
+          ],
+        },
+        ciberseguridad: {
+          title: "Ciberseguridad",
+          skills: [
+            { name: "WIRESHARK", level: 3 },
+            { name: "METASPLOIT", level: 3 },
+            { name: "NMAP", level: 3 },
+            { name: "KALI LINUX", level: 2 },
+            { name: "HARDENING", level: 3 },
+            { name: "NETCAT", level: 3 },
+            { name: "CIFRADO", level: 3 },
+            { name: "REDES", level: 3 },
+            { name: "ROUTING", level: 2 },
+            { name: "SWITCHING", level: 2 },
+            { name: "VLANS", level: 2 },
+            { name: "SUBNETTING", level: 2 },
+            { name: "LAN", level: 3 },
+            { name: "FIREWALLS", level: 2 },
+            { name: "PACKET TRACER (CISCO)", level: 3 },
+          ],
+        },
+        programacion: {
+          title: "Programación y Diseño Web",
+          skills: [
+            { name: "HTML", level: 4 },
+            { name: "CSS", level: 4 },
+            { name: "JAVASCRIPT", level: 3 },
+            { name: "PYTHON", level: 3 },
+            { name: "PHOTOSHOP", level: 3 },
+            { name: "BOOTSTRAP", level: 3 },
+            { name: "JQUERY", level: 2 },
+            { name: "REACT", level: 2 },
+          ],
+        },
+
+        sistemas: {
+          title: "Sistemas y Virtualización",
+          skills: [
+            { name: "LINUX", level: 4 },
+            { name: "WINDOWS", level: 4 },
+            { name: "VIRTUALIZACIÓN", level: 4 },
+            { name: "VIRTUALBOX Y VMWARE", level: 4 },
+            { name: "DOCKER", level: 3 },
+          ],
+        },
+      };
+
+      // JSON para formación
+      const formationData = [
+        {
+          year: "2025",
+          title: "Fundamentos de Python 2",
+          institution: "CISCO",
+          status: "",
+          image:
+            "https://images.credly.com/size/680x680/images/3f802526-7274-4230-91ab-f6d1a35340e6/image.png",
+          description:
+            "Curso que profundiza en los conceptos avanzados de Python, ideal para aquellos que ya tienen una base y quieren dominar temas como la programación orientada a objetos, manejo de archivos y estructuras de datos complejas. Proporciona una sólida preparación para el desarrollo de software.",
+          link: "https://www.netacad.com/es/courses/python-essentials-2?courseLang=es-XL",
+        },
+        {
+          year: "2025",
+          title: "Fundamentos de Python 1",
+          institution: "CISCO",
+          status: "",
+          image:
+            "https://images.credly.com/size/680x680/images/68c0b94d-f6ac-40b1-a0e0-921439eb092e/image.png",
+          description:
+            "Una introducción fundamental al lenguaje de programación Python. Este curso cubre los conceptos básicos, la sintaxis, las variables, y el control de flujo. Es el punto de partida perfecto para cualquiera que desee iniciarse en la programación y la automatización.",
+          link: "https://www.netacad.com/es/courses/python-essentials-1?courseLang=es-XL#",
+        },
+        {
+          year: "2025",
+          title: "Introduction to Modern AI",
+          institution: "CISCO",
+          status: "",
+          image:
+            "https://images.credly.com/size/680x680/images/e2d12302-10f9-40d4-8ff1-066a7008b61d/blob",
+          description:
+            "Este curso introduce los conceptos clave de la inteligencia artificial moderna, incluyendo el aprendizaje automático (machine learning) y el aprendizaje profundo (deep learning). Se exploran las aplicaciones de la IA en el mundo real y su impacto en la tecnología y los negocios.",
+          link: "https://www.netacad.com/es/courses/introduction-to-modern-ai?courseLang=en-US#",
+        },
+        {
+          year: "2025",
+          title: "Fundamentos de IA con IBM SkillsBuild",
+          institution: "CISCO",
+          status: "",
+          image:
+            "https://images.credly.com/size/680x680/images/26c21273-c0ab-485b-98a7-f1212dcb82b8/image.png",
+          description:
+            "Formación en colaboración con IBM para comprender los fundamentos de la Inteligencia Artificial. Cubre los principios básicos, las herramientas y las tecnologías necesarias para construir y aplicar soluciones de IA, preparando a los estudiantes para los desafíos del futuro tecnológico.",
+          link: "https://www.netacad.com/es/courses/ai-ibm-skillsbuild?courseLang=es-XL#",
+        },
+        {
+          year: "2025",
+          title: "Carrera profesional Analista Junior en Ciberseguridad",
+          institution: "CISCO",
+          status: "(finalizando)",
+          image: "https://www.netacad.com/skillsforall/img/cp_or_badge.png",
+          description:
+            "Programa completo enfocado en formar a futuros analistas de ciberseguridad. Los módulos cubren desde la detección de amenazas hasta la respuesta a incidentes y el análisis forense, proporcionando las habilidades esenciales para proteger sistemas y redes de ataques maliciosos.",
+          link: "https://www.netacad.com/es/career-paths/cybersecurity?courseLang=es-XL",
+        },
+        {
+          year: "2025",
+          title: "Carrera profesional Técnico de Redes",
+          institution: "CISCO",
+          status: "(finalizando)",
+          image: "https://www.netacad.com/skillsforall/img/ntcp-badge.png",
+          description:
+            "Formación orientada a la administración y gestión de redes informáticas. Incluye el diseño, configuración, y mantenimiento de infraestructuras de red, además de la resolución de problemas (troubleshooting). Prepara para roles de soporte técnico y administración de sistemas.",
+          link: "https://www.netacad.com/es/career-paths/network-technician?courseLang=es-XL",
+        },
+        {
+          year: "2025",
+          title: "Curso Accesibilidad WEB Impact#IAliada",
+          institution: "GoodJob",
+          status: "",
+          image:
+            "https://www.fundaciongoodjob.org/wp-content/smush-webp/2024/01/programa-impact-aliada-1-768x211.png.webp",
+          description:
+            "Curso enfocado en las normativas y buenas prácticas para la creación de sitios web accesibles. Se aprenden técnicas para asegurar que el contenido web sea usable por personas con discapacidad, mejorando la experiencia de usuario y cumpliendo con estándares internacionales.",
+          link: "https://www.fundaciongoodjob.org/programas-impact/programa-impactaliada/",
+        },
+        {
+          year: "2024",
+          title: "Curso Especialista en Ciberseguridad Impact #Include",
+          institution: "GoodJob",
+          status: "",
+          image:
+            "https://www.fundaciongoodjob.org/wp-content/smush-webp/2024/01/programa-impact-include-1-768x211.png.webp",
+          description:
+            "Formación intensiva para adquirir las habilidades de un especialista en ciberseguridad, con un enfoque práctico en la protección de datos, análisis de vulnerabilidades y defensa contra ciberataques, preparando a los estudiantes para enfrentar los riesgos digitales actuales.",
+          link: "https://www.fundaciongoodjob.org/programas-impact/programa-impactinclude/",
+        },
+        {
+          year: "2023",
+          title:
+            "Certificado Profesional Confección y publicación de páginas web (IFCD0110)",
+          institution: "SEPE",
+          status: "",
+          image:
+            "https://www.sepe.es/dam/jcr:3c02c473-6431-46f0-89bc-6ab2643a4928/SEPE_Cuadrado_Negativo_cas.png",
+          description:
+            "Certificado oficial que valida las competencias en el desarrollo de aplicaciones web. Cubre tecnologías como HTML, CSS y JavaScript , proporcionando una base sólida para trabajar en el desarrollo front-end.",
+          link: "https://sede.sepe.gob.es/especialidadesformativas/RXBuscadorEFRED/DetalleEspecialidad.do?codEspecialidad=IFCD0110",
+        },
+        {
+          year: "1996",
+          title: "BUP",
+          institution: "IES Can Jofresa",
+          status: "",
+          image: "./images/bup.png",
+          description:
+            "Título de Bachillerato Unificado Polivalente, la educación secundaria previa a la selectividad universitaria. Proporciona una formación general en diversas disciplinas, fundamental para el desarrollo académico y personal.",
+          link: "https://es.wikipedia.org/wiki/Bachillerato_Unificado_Polivalente",
+        },
+      ];
+
+      // Función para crear estrellas de rating
+      function createStarRating(level) {
+        let stars = "";
+        for (let i = 1; i <= 5; i++) {
+          if (i <= level) {
+            stars += '<i class="fas fa-star star"></i>';
+          } else {
+            stars += '<i class="fas fa-star star empty"></i>';
+          }
+        }
+        return stars;
+      }
+
+      // Función para cargar habilidades
+      function loadSkills() {
+        const container = document.getElementById("skillsContainer");
+        container.innerHTML = "";
+
+        Object.entries(skillsData).forEach(([category, data]) => {
+          const skillCategory = document.createElement("div");
+          skillCategory.className = "skill-category fade-in";
+          skillCategory.setAttribute("data-category", category);
+
+          const skillsHTML = data.skills
+            .map(
+              (skill) => `
+                    <div class="skill-tag">
+                        <span class="skill-name">${skill.name}</span>
+                        <div class="skill-rating">
+                            ${createStarRating(skill.level)}
+                        </div>
+                    </div>
+                `
+            )
+            .join("");
+
+          skillCategory.innerHTML = `
+                    <div class="category-title">${data.title}</div>
+                    <div class="skill-list">
+                        ${skillsHTML}
+                    </div>
+                `;
+
+          container.appendChild(skillCategory);
+        });
+      }
+
+      // Función para cargar formación con imágenes y manejadores de clic
+      function loadFormation() {
+        const container = document.getElementById("formationContainer");
+        container.innerHTML = "";
+
+        formationData.forEach((item, index) => {
+          const formationItem = document.createElement("div");
+          formationItem.className = "formation-item fade-in";
+          formationItem.style.animationDelay = `${index * 0.1}s`;
+
+          // Usamos la función showModal para abrir el modal con los datos del item
+          formationItem.onclick = () => showModal(item);
+
+          formationItem.innerHTML = `
+                <img src="${item.image}" alt="Logo de ${item.institution}" />
+                <div class="formation-details">
+                    <span class="item-year">${item.year}</span>
+                    <h3 class="item-title">${item.title}</h3>
+                    <p class="item-institution">${item.institution} ${item.status}</p>
+                </div>
+            `;
+
+          container.appendChild(formationItem);
+        });
+      }
+
+      // Funciones para manejar la ventana modal
+      const modal = document.getElementById("modal-window");
+      const modalTitle = document.getElementById("modal-title");
+      const modalImage = document.getElementById("modal-image");
+      const modalDescription = document.getElementById("modal-description");
+      const closeBtn = document.getElementsByClassName("close-btn")[0];
+
+      function showModal(item) {
+        modalTitle.textContent = item.title;
+        modalImage.src = item.image;
+        modalImage.onclick = () => window.open(item.link, "_blank");
+        modalDescription.textContent = item.description;
+        modal.style.display = "block";
+      }
+
+      function closeModal() {
+        modal.style.display = "none";
+      }
+
+      closeBtn.onclick = closeModal;
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          closeModal();
+        }
+      };
+
+      // Función para filtrar habilidades
+      function filterSkills(filter) {
+        const categories = document.querySelectorAll(".skill-category");
+
+        categories.forEach((category) => {
+          if (
+            filter === "all" ||
+            category.getAttribute("data-category") === filter
+          ) {
+            category.style.display = "block";
+            category.classList.add("fade-in");
+          } else {
+            category.style.display = "none";
+          }
+        });
+      }
+
+      // Event listeners para filtros y descarga
+      document.addEventListener("DOMContentLoaded", function () {
+        loadSkills();
+        loadFormation();
+
+        // Filtros de habilidades
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            // Remover clase active de todos los botones
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+            // Agregar clase active al botón clickeado
+            this.classList.add("active");
+            // Filtrar habilidades
+            filterSkills(this.getAttribute("data-filter"));
+          });
+        });
+
+        // Efectos de hover y animaciones
+        const skillTags = document.querySelectorAll(".skill-tag");
+        skillTags.forEach((tag) => {
+          tag.addEventListener("mouseenter", function () {
+            this.classList.add("pulse");
+          });
+
+          tag.addEventListener("mouseleave", function () {
+            this.classList.remove("pulse");
+          });
+        });
+
+        // NUEVO: Funcionalidad para el modal de la foto de perfil
+        const profilePhoto = document.querySelector(".profile-photo");
+        const profileModal = document.getElementById("profile-modal");
+        const closeProfileModalBtn =
+          document.getElementById("closeProfileModal");
+        const modalProfileImg = document.getElementById("modal-profile-img");
+        const modalProfileTitle = document.getElementById(
+          "modal-profile-title"
+        );
+        const modalProfileDescription = document.getElementById(
+          "modal-profile-description"
+        );
+
+        // Datos para la ventana modal
+        const profileData = {
+          image: profilePhoto.src,
+          title: "José Manuel Moreno Tapia",
+          description:
+            "Apasionado de la informática con más de 10 años de experiencia en gestión de procesos y control de calidad en la industria farmacéutica, reinventándome desde hace tres años con un claro objetivo: trabajar en el sector tecnológico. Para ello, me actualizo diariamente de forma autodidacta en Ciberseguridad, programación y automatización con IA.",
+        };
+
+        // Evento para abrir el modal al hacer clic en la imagen
+        profilePhoto.addEventListener("click", () => {
+          modalProfileImg.src = profileData.image;
+          modalProfileTitle.textContent = profileData.title;
+          modalProfileDescription.textContent = profileData.description;
+          profileModal.style.display = "block";
+        });
+
+        // Evento para cerrar el modal al hacer clic en la 'x'
+        closeProfileModalBtn.addEventListener("click", () => {
+          profileModal.style.display = "none";
+        });
+
+        // Evento para cerrar el modal al hacer clic fuera del contenido
+        window.addEventListener("click", (event) => {
+          if (event.target === profileModal) {
+            profileModal.style.display = "none";
+          }
+        });
+      });
+
+      // Animación de carga progresiva
+      window.addEventListener("load", function () {
+        const elements = document.querySelectorAll(
+          ".formation-item, .experience-item"
+        );
+        elements.forEach((element, index) => {
+          setTimeout(() => {
+            element.classList.add("fade-in");
+          }, index * 200);
+        });
+      });
+    </script>
+  </body>
+</html>
